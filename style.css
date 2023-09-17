@@ -1,0 +1,57 @@
+#logo-img{
+    width: 353px; 
+}
+
+body{
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(220, 252,254,1)100%);
+}
+
+#nav-div{
+    display: flex;
+    justify-content: center;   
+}
+
+#ull{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 47 px;
+    font-family: 
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.video-container {
+    height: 854px;
+    position: relative
+  }
+  
+  #vvideo {
+    height: inherit;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+  }
+  
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    width: 100%;
+    display: none;
+}
+.carousel-slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-slide:first-child {
+    display: block;
+}
